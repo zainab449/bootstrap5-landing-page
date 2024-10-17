@@ -1,0 +1,206 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #f8f9fa; /* Light background */
+    padding: 2rem 0; /* Padding for space around the navbar */
+    height: 90px;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 2rem; /* Increase the logo font size */
+    color: #0d6efd; /* Primary blue color for brand */
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand:hover {
+    color: #0056b3; /* Slightly darker on hover */
+    text-decoration: none;
+}
+
+.navbar .btn-primary {
+    background-color: #0d6efd; /* Primary blue button */
+    border: none; /* Remove button border */
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem; /* Padding for button */
+}
+
+.navbar .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border: none;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between; /* Space between brand and button */
+    align-items: center; /* Align items vertically center */
+}
+/* Masthead Section */
+.masthead {
+    background: 
+                url('bg-image.jpg') no-repeat center center;
+    background-size: cover; /* Ensure background covers the entire section */
+    padding: 150px 0; /* Add space vertically */
+    color: white;
+    text-align: center;
+    background-color: #212529;
+    position: relative;
+    
+}
+
+/* Heading Styling */
+.masthead h1 {
+    font-size: 2.5rem; /* Larger text for emphasis */
+    /* font-weight: 600; */
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+/* Form Styling */
+.form-subscribe .form-control-lg {
+    font-size: 1.2rem; /* Adjust font size */
+    padding: 1rem; /* Larger padding for better readability */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+.form-subscribe .btn-primary {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem; /* Adjust padding */
+    border-radius: 0.5rem;
+    background-color: #0d6efd; /* Bootstrap primary color */
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.form-subscribe .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.form-subscribe .invalid-feedback {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.form-subscribe .d-none {
+    display: none; /* Hide success/error messages initially */
+}
+
+/* Success and Error Message */
+#submitSuccessMessage .fw-bolder {
+    font-size: 1.2rem;
+    color: #28a745; /* Green color for success */
+}
+
+#submitErrorMessage {
+    color: #dc3545; /* Red color for error */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .masthead {
+        padding: 100px 0; /* Adjust padding for smaller screens */
+    }
+
+    .masthead h1 {
+        font-size: 2rem; /* Adjust heading size */
+    }
+
+    .form-subscribe .form-control-lg {
+        font-size: 1rem; /* Smaller input fields on mobile */
+    }
+
+    .form-subscribe .btn-primary {
+        font-size: 1rem;
+    }
+}
+
+
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #0d6efd !important;
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: white;
+}
+
+.row {
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.showcase .showcase-text {
+    padding: 7rem;
+}
+
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.testimonials .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background: url('bg-image.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    transition: background-color 0.3s ease;
+}
